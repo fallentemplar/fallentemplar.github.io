@@ -37,6 +37,7 @@ export default () => {
                         data={data.codigofacilitoJson.data.courses}
                         card={Course}
                         title="Mis cursos" />
+
                 </div>
             </div>
         </section>
