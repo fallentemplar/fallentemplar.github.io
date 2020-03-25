@@ -37,3 +37,7 @@ Base (starters): son plantillas
     > body {
         background: red;
     }
+// Desarrollar la página
+8. ## Instalar módulos 
+> npm install gatsby-transformer-json
+> npm install gatsby-source-filesystem

@@ -7,8 +7,8 @@ export default () => (
         <div className="container mx-auto p-12 max-w-4xl">
             <div className="flex justify-center items-center">
                 <div className="flex-1">
-                    <h1 className="font-light text-purple-700 font-bold text-6xl">¡Hola, soy Alexis!</h1>
-                    <p className="text-xl">Creo aplicaciones web y trabajo en Harman International</p>
+                    <h1 className="font-light text-purple-700 font-bold text-6xl">¡Saludos, viajero, soy Alexis!</h1>
+                    <p className="text-xl">Me encantan programar, el power metal, la ciencia ficción y los videojuegos</p>
                 </div>
                 <img src={illustration} alt="logo" style={{ height: "300px" }}></img>
             </div>
