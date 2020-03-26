@@ -6,10 +6,6 @@ import Post from "./post"
 export default () => {
     const [posts, setPosts] = useState([]);
 
-
-
-
-
     useEffect(() => {
         const data = sessionStorage.getItem("posts");
         if (data) {
@@ -23,6 +19,7 @@ export default () => {
             sessionStorage.setItem('posts', JSON.stringify(myPosts.items));
 
             setPosts(myPosts.items);
+            console.log(myPosts.items);
         }
         getMediumPosts();
     }, []);

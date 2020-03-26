@@ -4,11 +4,16 @@ import Repos from "../components/repos"
 import Codigofacilito from "../components/codigofacilito"
 import Medium from "../components/medium"
 import EducationNav from "../components/education-nav"
+import Carrousel from "../components/carrousel"
 
 export default () => <div>
     <Header />
     <EducationNav />
     <Repos />
-    <Codigofacilito />
+    <Carrousel/>
     <Medium />
+    {/*
+        <Codigofacilito />
+        <Medium />
+    */}
 </div>
