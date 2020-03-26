@@ -1,0 +1,12 @@
+{
+    "slug": "presencial",
+    "title": "Formación académica",
+    "description": "Formación académica, grados de estudio e instituciones a las que asistí",
+    "items": [
+        {
+            "name": "Instituto Tecnológico de Querétaro",
+            "degree": "Ing. en Sistemas Computacionales",
+            "score": "93"
+        }
+    ]
+}

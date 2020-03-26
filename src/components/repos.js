@@ -25,6 +25,7 @@ export default () => {
             myRepos = await response.json();
             setReposCount(myRepos.length);
             sessionStorage.setItem("repos", JSON.stringify(myRepos))
+            myRepos = myRepos.slice(1, 13);
             setRepos(myRepos);
         }
         fetchRepos();
