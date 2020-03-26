@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: "/fallentemplar.github.io",
+  pathPrefix: "/",
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-transformer-json',
