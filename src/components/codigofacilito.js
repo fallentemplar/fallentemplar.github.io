@@ -23,7 +23,6 @@ export default () => {
         }
     }`);
 
-    console.log(data)
     return (
         <section>
             <div className="mt-24">

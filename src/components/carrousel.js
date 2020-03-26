@@ -27,7 +27,7 @@ export default class SimpleSlider extends Component {
             < div className="max-w-4xl mx-auto mt-12" >
                 <div className="content-center">
                     <header className="text-center pb-8">
-                        <h2 className="text-3xl font-bold">Participaciones en concursos</h2>
+                        <h2 className="text-3xl font-bold">Actividades destacadas</h2>
                     </header>
                     <Slider {...settings}>
                         <div className="pl-2 flex-1 font-bold">

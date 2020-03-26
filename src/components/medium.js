@@ -19,7 +19,6 @@ export default () => {
             sessionStorage.setItem('posts', JSON.stringify(myPosts.items));
 
             setPosts(myPosts.items);
-            console.log(myPosts.items);
         }
         getMediumPosts();
     }, []);
