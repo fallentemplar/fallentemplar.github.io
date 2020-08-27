@@ -7,14 +7,10 @@ export default () => (
         <div className="container mx-auto p-12 max-w-4xl">
             <div className="flex justify-center items-center">
                 <div className="flex-1">
-                    <h1 className="font-light text-purple-700 font-bold text-6xl">¡Saludos, viajero, soy Alexis!</h1>
-                    <p className="text-xl">Me encantan programar, el power metal, la ciencia ficción y los videojuegos</p>
+                    <h1 className="text-purple-700 font-bold text-6xl">¡Saludos, viajero, soy Alexis!</h1>
+                    <p className="font-light text-xl">Me encantan programar, el power metal, la ciencia ficción y los videojuegos</p>
                 </div>
-                <img src={illustration} alt="logo" style={{ height: "300px" }}></img>
-            </div>
-
-            <div>
-                <Form />
+                <img src={illustration} alt="logo" style={{ height: "300px" }} className="visible"></img>
             </div>
         </div>
     </header>
